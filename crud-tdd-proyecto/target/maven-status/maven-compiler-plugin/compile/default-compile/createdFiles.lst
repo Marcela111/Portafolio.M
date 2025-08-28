@@ -1,0 +1,7 @@
+com\portafolio\service\TareaService.class
+com\portafolio\repository\TareaRepository.class
+com\portafolio\repository\TareaRepositoryImpl.class
+com\portafolio\model\Tarea.class
+com\portafolio\app\Main.class
+com\portafolio\controller\TareaController.class
+com\portafolio\service\TareaServiceImpl.class

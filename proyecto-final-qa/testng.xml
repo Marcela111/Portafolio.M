@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite de Automatizacion Funcional" verbose="1">
+    
+    <listeners>
+        <listener class-name="com.tuempresa.utils.ScreenshotListener" />
+    </listeners>
+
+    <test name="Ejecucion en Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.tuempresa.tests.LoginTest"/>
+            <class name="com.tuempresa.tests.RegistroTest"/>
+        </classes>
+    </test>
+
+    <test name="Ejecucion en Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.tuempresa.tests.LoginTest"/>
+            <class name="com.tuempresa.tests.RegistroTest"/>
+        </classes>
+    </test>
+
+</suite>

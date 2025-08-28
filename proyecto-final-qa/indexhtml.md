@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" class="navigator-link">
+              <span class="suite-name border-passed">Suite de Automatizacion Funcional</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_de_Automatizacion_Funcional" class="navigator-link ">
+                    <span>C:\Users\mamor\OneDrive\Escritorio\tu-proyecto-de-automatizacion\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_de_Automatizacion_Funcional" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_de_Automatizacion_Funcional" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_de_Automatizacion_Funcional" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_de_Automatizacion_Funcional" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_de_Automatizacion_Funcional" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_de_Automatizacion_Funcional" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" class="hide-methods passed suite-Suite_de_Automatizacion_Funcional"> (hide)</a> <!-- hide-methods passed suite-Suite_de_Automatizacion_Funcional -->
+                      <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" class="show-methods passed suite-Suite_de_Automatizacion_Funcional"> (show)</a> <!-- show-methods passed suite-Suite_de_Automatizacion_Funcional -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_de_Automatizacion_Funcional">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginExitoso">testLoginExitoso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginExitoso">testLoginExitoso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginFallido">testLoginFallido</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginFallido">testLoginFallido</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginFallidoMultiplesIntentos">testLoginFallidoMultiplesIntentos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginFallidoMultiplesIntentos">testLoginFallidoMultiplesIntentos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)">testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)">testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)">testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)">testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)">testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)">testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)">testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)">testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)">testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)">testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)">testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_de_Automatizacion_Funcional" title="com.tuempresa.tests.RegistroTest" class="method navigator-link" hash-for-method="testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)">testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_de_Automatizacion_Funcional -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_de_Automatizacion_Funcional" class="panel Suite_de_Automatizacion_Funcional">
+          <div class="suite-Suite_de_Automatizacion_Funcional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tuempresa.tests.RegistroTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)">
+                  </a> <!-- testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Juan,Perez,1234567890,juan.perez@test.com,Pass1234!,Pass1234!,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)">
+                  </a> <!-- testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(,Rodriguez,1122334455,rodrigo@test.com,SecurePass!,SecurePass!,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)">
+                  </a> <!-- testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Ana,Lopez,5566778899,ana.lopez@test.com,Pass123!,Pass123!,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)">
+                  </a> <!-- testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Sofia,Diaz,1212121212,,TestPass123,TestPass123,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)">
+                  </a> <!-- testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Maria,Gomez,9876543210,maria.gomez@test.com,pass123,pass123,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)">
+                  </a> <!-- testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Pedro,Sanchez,4455667788,pedro.sanchez@test.com,pass123!,Pass1234!,false)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)">
+                  </a> <!-- testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Ana,Lopez,5566778899,ana.lopez@test.com,Pass123!,Pass123!,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)">
+                  </a> <!-- testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Sofia,Diaz,1212121212,,TestPass123,TestPass123,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)">
+                  </a> <!-- testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(,Rodriguez,1122334455,rodrigo@test.com,SecurePass!,SecurePass!,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)">
+                  </a> <!-- testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Pedro,Sanchez,4455667788,pedro.sanchez@test.com,pass123!,Pass1234!,false)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)">
+                  </a> <!-- testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Juan,Perez,1234567890,juan.perez@test.com,Pass1234!,Pass1234!,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)">
+                  </a> <!-- testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true) -->
+                  <span class="method-name">testRegistro</span>
+                  <span class="parameters">(Maria,Gomez,9876543210,maria.gomez@test.com,pass123,pass123,true)</span>
+                  <em>
+(Valida el formulario de registro con diferentes datos.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_de_Automatizacion_Funcional-class-passed -->
+          <div class="suite-Suite_de_Automatizacion_Funcional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tuempresa.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginExitoso">
+                  </a> <!-- testLoginExitoso -->
+                  <span class="method-name">testLoginExitoso</span>
+                  <em>
+(Verificar login con credenciales válidas)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginExitoso">
+                  </a> <!-- testLoginExitoso -->
+                  <span class="method-name">testLoginExitoso</span>
+                  <em>
+(Verificar login con credenciales válidas)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginFallido">
+                  </a> <!-- testLoginFallido -->
+                  <span class="method-name">testLoginFallido</span>
+                  <em>
+(Verificar login con credenciales inválidas)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginFallido">
+                  </a> <!-- testLoginFallido -->
+                  <span class="method-name">testLoginFallido</span>
+                  <em>
+(Verificar login con credenciales inválidas)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginFallidoMultiplesIntentos">
+                  </a> <!-- testLoginFallidoMultiplesIntentos -->
+                  <span class="method-name">testLoginFallidoMultiplesIntentos</span>
+                  <em>
+(Verificar comportamiento con múltiples fallas)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginFallidoMultiplesIntentos">
+                  </a> <!-- testLoginFallidoMultiplesIntentos -->
+                  <span class="method-name">testLoginFallidoMultiplesIntentos</span>
+                  <em>
+(Verificar comportamiento con múltiples fallas)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_de_Automatizacion_Funcional-class-passed -->
+        </div> <!-- panel Suite_de_Automatizacion_Funcional -->
+        <div panel-name="test-xml-Suite_de_Automatizacion_Funcional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mamor\OneDrive\Escritorio\tu-proyecto-de-automatizacion\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite de Automatizacion Funcional&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tuempresa.utils.ScreenshotListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ejecucion en Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tuempresa.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.tuempresa.tests.RegistroTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ejecucion en Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ejecucion en Firefox&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tuempresa.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.tuempresa.tests.RegistroTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ejecucion en Firefox --&gt;
+&lt;/suite&gt; &lt;!-- Suite de Automatizacion Funcional --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_de_Automatizacion_Funcional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite de Automatizacion Funcional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Ejecucion en Chrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Ejecucion en Firefox (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_de_Automatizacion_Funcional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite de Automatizacion Funcional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_de_Automatizacion_Funcional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite de Automatizacion Funcional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_de_Automatizacion_Funcional');
+function tableData_Suite_de_Automatizacion_Funcional() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testRegistro')
+data.setCell(0, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(0, 3, 13759);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRegistro')
+data.setCell(1, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(1, 3, 13744);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginFallidoMultiplesIntentos')
+data.setCell(2, 2, 'com.tuempresa.tests.LoginTest')
+data.setCell(2, 3, 8054);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginFallidoMultiplesIntentos')
+data.setCell(3, 2, 'com.tuempresa.tests.LoginTest')
+data.setCell(3, 3, 5752);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginExitoso')
+data.setCell(4, 2, 'com.tuempresa.tests.LoginTest')
+data.setCell(4, 3, 5159);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRegistro')
+data.setCell(5, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(5, 3, 4871);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRegistro')
+data.setCell(6, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(6, 3, 4529);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testRegistro')
+data.setCell(7, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(7, 3, 4500);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLoginFallido')
+data.setCell(8, 2, 'com.tuempresa.tests.LoginTest')
+data.setCell(8, 3, 4490);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRegistro')
+data.setCell(9, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(9, 3, 4362);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginExitoso')
+data.setCell(10, 2, 'com.tuempresa.tests.LoginTest')
+data.setCell(10, 3, 4229);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testRegistro')
+data.setCell(11, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(11, 3, 4062);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testRegistro')
+data.setCell(12, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(12, 3, 3963);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testRegistro')
+data.setCell(13, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(13, 3, 3893);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testRegistro')
+data.setCell(14, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(14, 3, 3886);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testLoginFallido')
+data.setCell(15, 2, 'com.tuempresa.tests.LoginTest')
+data.setCell(15, 3, 3871);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testRegistro')
+data.setCell(16, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(16, 3, 3727);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testRegistro')
+data.setCell(17, 2, 'com.tuempresa.tests.RegistroTest')
+data.setCell(17, 3, 3725);
+window.suiteTableData['Suite_de_Automatizacion_Funcional']= { tableData: data, tableDiv: 'times-div-Suite_de_Automatizacion_Funcional'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite_de_Automatizacion_Funcional">
+              </div> <!-- times-div-Suite_de_Automatizacion_Funcional -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_de_Automatizacion_Funcional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite de Automatizacion Funcional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_de_Automatizacion_Funcional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_de_Automatizacion_Funcional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tuempresa.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginExitoso</span>
+                <span class="method-start">1790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">6021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">6239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginFallido</span>
+                <span class="method-start">7017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">11110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginFallidoMultiplesIntentos</span>
+                <span class="method-start">11898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">17651 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tuempresa.tests.RegistroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">17866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)</span>
+                <span class="method-start">18636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">22529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">22733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)</span>
+                <span class="method-start">23580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">27305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">27515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)</span>
+                <span class="method-start">28302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">32831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">33036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)</span>
+                <span class="method-start">33866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">37829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">38054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)</span>
+                <span class="method-start">38853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">42580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">42817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)</span>
+                <span class="method-start">43587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">57332 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tuempresa.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">57626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginExitoso</span>
+                <span class="method-start">61996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">67156 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">70347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginFallido</span>
+                <span class="method-start">74782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">79272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">82457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginFallidoMultiplesIntentos</span>
+                <span class="method-start">86848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">94903 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tuempresa.tests.RegistroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">98100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Juan, Perez, 1234567890, juan.perez@test.com, Pass1234!, Pass1234!, true)</span>
+                <span class="method-start">102404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">106467 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">109859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Maria, Gomez, 9876543210, maria.gomez@test.com, pass123, pass123, true)</span>
+                <span class="method-start">114210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">118097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">121257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(, Rodriguez, 1122334455, rodrigo@test.com, SecurePass!, SecurePass!, true)</span>
+                <span class="method-start">125583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">130083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">133253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Ana, Lopez, 5566778899, ana.lopez@test.com, Pass123!, Pass123!, true)</span>
+                <span class="method-start">137713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">142075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">145267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Sofia, Diaz, 1212121212, , TestPass123, TestPass123, true)</span>
+                <span class="method-start">149646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">154517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">157770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegistro(Pedro, Sanchez, 4455667788, pedro.sanchez@test.com, pass123!, Pass1234!, false)</span>
+                <span class="method-start">162148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">175908 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

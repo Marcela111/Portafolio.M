@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TareaServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">crud-tdd-proyecto</a> &gt; <a href="index.source.html" class="el_package">com.portafolio.service</a> &gt; <span class="el_source">TareaServiceImpl.java</span></div><h1>TareaServiceImpl.java</h1><pre class="source lang-java linenums">package com.portafolio.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.portafolio.model.Tarea;
+import com.portafolio.repository.TareaRepository;
+
+public class TareaServiceImpl implements TareaService {
+
+    private final TareaRepository tareaRepository;
+
+<span class="fc" id="L13">    public TareaServiceImpl(TareaRepository tareaRepository) {</span>
+<span class="fc" id="L14">        this.tareaRepository = tareaRepository;</span>
+<span class="fc" id="L15">    }</span>
+
+    @Override
+    public Tarea crearTarea(String titulo, String descripcion) {
+<span class="fc" id="L19">        Tarea tarea = new Tarea(titulo, descripcion);</span>
+<span class="fc" id="L20">        return tareaRepository.save(tarea);</span>
+    }
+
+    @Override
+    public List&lt;Tarea&gt; obtenerTodasLasTareas() {
+<span class="fc" id="L25">        return tareaRepository.findAll();</span>
+    }
+
+    @Override
+    public Optional&lt;Tarea&gt; obtenerTareaPorId(Long id) {
+<span class="fc" id="L30">        return tareaRepository.findById(id);</span>
+    }
+
+    @Override
+    public Optional&lt;Tarea&gt; actualizarTarea(Long id, String titulo, String descripcion) {
+<span class="fc" id="L35">        Optional&lt;Tarea&gt; tareaOpt = tareaRepository.findById(id);</span>
+<span class="pc bpc" id="L36" title="1 of 2 branches missed.">        if (tareaOpt.isPresent()) {</span>
+<span class="fc" id="L37">            Tarea tarea = tareaOpt.get();</span>
+            
+            // Solo actualiza si el nuevo título no es nulo y no está vacío
+<span class="pc bpc" id="L40" title="2 of 4 branches missed.">            if (titulo != null &amp;&amp; !titulo.trim().isEmpty()) {</span>
+<span class="fc" id="L41">                tarea.setTitulo(titulo);</span>
+            }
+            // Solo actualiza si la nueva descripción no es nula y no está vacía
+<span class="pc bpc" id="L44" title="2 of 4 branches missed.">            if (descripcion != null &amp;&amp; !descripcion.trim().isEmpty()) {</span>
+<span class="fc" id="L45">                tarea.setDescripcion(descripcion);</span>
+            }
+            
+<span class="fc" id="L48">            return tareaRepository.update(tarea); </span>
+        }
+<span class="nc" id="L50">        return Optional.empty();</span>
+    }
+
+    @Override
+    public boolean eliminarTarea(Long id) {
+<span class="fc" id="L55">        return tareaRepository.deleteById(id);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

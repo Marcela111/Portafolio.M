@@ -1,0 +1,4 @@
+com\empresa\steps\TestRunner.class
+com\empresa\steps\LoginSteps.class
+com\empresa\steps\Hooks.class
+com\empresa\steps\CrudSteps.class

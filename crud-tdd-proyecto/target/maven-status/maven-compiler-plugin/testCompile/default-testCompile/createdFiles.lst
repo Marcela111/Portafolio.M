@@ -1,0 +1,4 @@
+com\portafolio\model\TareaTest.class
+com\portafolio\controller\TareaControllerTest.class
+com\portafolio\repository\TareaRepositoryImplTest.class
+com\portafolio\service\TareaServiceImplTest.class

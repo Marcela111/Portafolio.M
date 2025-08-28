@@ -1,0 +1,5 @@
+com\tuempresa\tests\ReservaTest.class
+com\tuempresa\tests\RegistroTest.class
+com\tuempresa\utils\ScreenshotListener.class
+com\tuempresa\tests\LoginTest.class
+com\tuempresa\utils\BaseTest.class

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-02T16:16:41 CLT" name="Suite de Automatizacion Funcional" finished-at="2025-08-02T16:19:45 CLT" duration-ms="183423">
+    <groups>
+    </groups>
+    <test started-at="2025-08-02T16:16:41 CLT" name="Ejecucion en Chrome" finished-at="2025-08-02T16:17:42 CLT" duration-ms="60723">
+      <class name="com.tuempresa.tests.RegistroTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:02 CLT" name="setup" finished-at="2025-08-02T16:17:03 CLT" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:03 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:17:07 CLT" duration-ms="3738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Perez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[juan.perez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:07 CLT" name="teardown" finished-at="2025-08-02T16:17:07 CLT" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:07 CLT" name="setup" finished-at="2025-08-02T16:17:08 CLT" duration-ms="806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:08 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:17:12 CLT" duration-ms="3558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gomez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[maria.gomez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:12 CLT" name="teardown" finished-at="2025-08-02T16:17:12 CLT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:12 CLT" name="setup" finished-at="2025-08-02T16:17:13 CLT" duration-ms="858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:13 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:17:17 CLT" duration-ms="3905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rodriguez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1122334455]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rodrigo@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SecurePass!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SecurePass!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:17 CLT" name="teardown" finished-at="2025-08-02T16:17:17 CLT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:17 CLT" name="setup" finished-at="2025-08-02T16:17:18 CLT" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:18 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:17:21 CLT" duration-ms="3673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lopez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5566778899]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ana.lopez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass123!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass123!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:21 CLT" name="teardown" finished-at="2025-08-02T16:17:22 CLT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:22 CLT" name="setup" finished-at="2025-08-02T16:17:22 CLT" duration-ms="782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:22 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:17:27 CLT" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sofia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diaz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1212121212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TestPass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestPass123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:27 CLT" name="teardown" finished-at="2025-08-02T16:17:27 CLT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:27 CLT" name="setup" finished-at="2025-08-02T16:17:28 CLT" duration-ms="856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:28 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:17:42 CLT" duration-ms="13850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pedro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanchez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4455667788]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pedro.sanchez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@52bf72b5]" started-at="2025-08-02T16:17:42 CLT" name="teardown" finished-at="2025-08-02T16:17:42 CLT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tuempresa.tests.RegistroTest -->
+      <class name="com.tuempresa.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:41 CLT" name="setup" finished-at="2025-08-02T16:16:44 CLT" duration-ms="2789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginExitoso()[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:44 CLT" name="testLoginExitoso" description="Verificar login con credenciales válidas" finished-at="2025-08-02T16:16:49 CLT" duration-ms="4635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginExitoso -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:49 CLT" name="teardown" finished-at="2025-08-02T16:16:49 CLT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:49 CLT" name="setup" finished-at="2025-08-02T16:16:50 CLT" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginFallido()[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:50 CLT" name="testLoginFallido" description="Verificar login con credenciales inválidas" finished-at="2025-08-02T16:16:54 CLT" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFallido -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:54 CLT" name="teardown" finished-at="2025-08-02T16:16:54 CLT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:54 CLT" name="setup" finished-at="2025-08-02T16:16:55 CLT" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginFallidoMultiplesIntentos()[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:16:55 CLT" name="testLoginFallidoMultiplesIntentos" description="Verificar comportamiento con múltiples fallas" finished-at="2025-08-02T16:17:02 CLT" duration-ms="6881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFallidoMultiplesIntentos -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.LoginTest@72057ecf]" started-at="2025-08-02T16:17:02 CLT" name="teardown" finished-at="2025-08-02T16:17:02 CLT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tuempresa.tests.LoginTest -->
+    </test> <!-- Ejecucion en Chrome -->
+    <test started-at="2025-08-02T16:17:42 CLT" name="Ejecucion en Firefox" finished-at="2025-08-02T16:19:45 CLT" duration-ms="122676">
+      <class name="com.tuempresa.tests.RegistroTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:24 CLT" name="setup" finished-at="2025-08-02T16:18:29 CLT" duration-ms="4398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:29 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:18:34 CLT" duration-ms="4851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Perez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[juan.perez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:34 CLT" name="teardown" finished-at="2025-08-02T16:18:37 CLT" duration-ms="3195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:37 CLT" name="setup" finished-at="2025-08-02T16:18:41 CLT" duration-ms="4397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:41 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:18:46 CLT" duration-ms="4931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gomez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[maria.gomez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:46 CLT" name="teardown" finished-at="2025-08-02T16:18:49 CLT" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:49 CLT" name="setup" finished-at="2025-08-02T16:18:54 CLT" duration-ms="4335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:54 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:18:58 CLT" duration-ms="3862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rodriguez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1122334455]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rodrigo@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SecurePass!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SecurePass!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:18:58 CLT" name="teardown" finished-at="2025-08-02T16:19:01 CLT" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:01 CLT" name="setup" finished-at="2025-08-02T16:19:05 CLT" duration-ms="4408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:05 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:19:10 CLT" duration-ms="4510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lopez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5566778899]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ana.lopez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass123!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass123!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:10 CLT" name="teardown" finished-at="2025-08-02T16:19:13 CLT" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:13 CLT" name="setup" finished-at="2025-08-02T16:19:17 CLT" duration-ms="4381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:17 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:19:22 CLT" duration-ms="4512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sofia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Diaz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1212121212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TestPass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TestPass123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:22 CLT" name="teardown" finished-at="2025-08-02T16:19:25 CLT" duration-ms="3165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:25 CLT" name="setup" finished-at="2025-08-02T16:19:29 CLT" duration-ms="4236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistro(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:29 CLT" name="testRegistro" description="Valida el formulario de registro con diferentes datos." data-provider="registroDatos" finished-at="2025-08-02T16:19:44 CLT" duration-ms="14463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pedro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanchez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4455667788]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pedro.sanchez@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123!]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistro -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.RegistroTest@67c27493]" started-at="2025-08-02T16:19:44 CLT" name="teardown" finished-at="2025-08-02T16:19:45 CLT" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tuempresa.tests.RegistroTest -->
+      <class name="com.tuempresa.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:17:42 CLT" name="setup" finished-at="2025-08-02T16:17:47 CLT" duration-ms="5099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginExitoso()[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:17:47 CLT" name="testLoginExitoso" description="Verificar login con credenciales válidas" finished-at="2025-08-02T16:17:51 CLT" duration-ms="4274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginExitoso -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:17:51 CLT" name="teardown" finished-at="2025-08-02T16:17:54 CLT" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:17:54 CLT" name="setup" finished-at="2025-08-02T16:17:59 CLT" duration-ms="4461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginFallido()[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:17:59 CLT" name="testLoginFallido" description="Verificar login con credenciales inválidas" finished-at="2025-08-02T16:18:07 CLT" duration-ms="8255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFallido -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:18:07 CLT" name="teardown" finished-at="2025-08-02T16:18:11 CLT" duration-ms="3477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:18:11 CLT" name="setup" finished-at="2025-08-02T16:18:15 CLT" duration-ms="4452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginFallidoMultiplesIntentos()[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:18:15 CLT" name="testLoginFallidoMultiplesIntentos" description="Verificar comportamiento con múltiples fallas" finished-at="2025-08-02T16:18:21 CLT" duration-ms="6094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFallidoMultiplesIntentos -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tuempresa.tests.LoginTest@77fbd92c]" started-at="2025-08-02T16:18:21 CLT" name="teardown" finished-at="2025-08-02T16:18:24 CLT" duration-ms="3141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tuempresa.tests.LoginTest -->
+    </test> <!-- Ejecucion en Firefox -->
+  </suite> <!-- Suite de Automatizacion Funcional -->
+</testng-results>
