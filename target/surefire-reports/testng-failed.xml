@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.mediplus.api.tests.MediPlusAPITest">
+        <methods>
+          <include name="testPostPatientWithInvalidData"/>
+          <include name="testPutPatient"/>
+          <include name="testGetNonExistentPatient"/>
+          <include name="testInvalidAuthToken"/>
+          <include name="setup"/>
+          <include name="testDeletePatient"/>
+          <include name="testPostPatient"/>
+          <include name="testNoAuthToken"/>
+        </methods>
+      </class> <!-- com.mediplus.api.tests.MediPlusAPITest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
